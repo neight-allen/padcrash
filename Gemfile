@@ -64,12 +64,13 @@ group :development, :test do
 
   gem 'pry-rescue'
   gem 'pry-stack_explorer'
-  
+
   gem 'rspec-rails', '~> 3.5'
   gem 'capybara'
   gem 'launchy'
   gem 'database_cleaner'
   gem 'shoulda-matchers', '~> 3.1'
+  gem 'travis'
 end
 
 group :development do
